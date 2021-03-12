@@ -1,0 +1,107 @@
+.alto {
+    height: 400px;
+    font-family: 'Dancing Script', cursive;
+}
+#tareasUno {
+    background-color: #F3F1EE;
+}
+#tareasDos {
+    background-color: #F4EEE9;
+}
+#tareasTres {
+    background-color:#EFDBD4 ; 
+}
+.title {
+    background-color: #EEF9FB;
+}
+h2 {
+    color: #BCB1B3;
+    font-family: 'Dancing Script', cursive;
+}
+h1 {
+    color: #BCB1B3;
+    font-family: 'Dancing Script', cursive;
+}
+#nueva-tarea {
+    background: #F3F1EE;
+    color: #BCB1B3;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+.lista{
+    background: "#F3F1EE" !important;
+    border: "none";
+}
+li:hover{
+    
+    cursor: pointer;
+    
+
+}
+/*#button {
+    float: right;
+    margin-top: 5px;
+}*/
+
+.modalContainer {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: transparent !important;
+    background-color: transparent !important;
+}
+
+.modalContainer .modal-content {
+    background-color: #EFDBD4;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #BCB1B3;
+    border-top: 10px solid #BCB1B3;
+    width: 50%;
+}
+
+.modalContainer .close {
+    color: #BCB1B3;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.modalContainer .close:hover,
+.modalContainer .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fas{
+    color: #BCB1B3;
+}
+.far{
+    color: #BCB1B3;
+}
+
+.foter{
+    background-color: #EEF9FB;
+    color: #BCB1B3;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+.campoOne{
+    font-family: 'Dancing Script', cursive;
+    color:#BCB1B3 ;
+}
+.error{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    background: red;
+   width: 50px;
+    
+   
+}
